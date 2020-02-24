@@ -26,6 +26,7 @@ form {
 
 button,
 input {
+    font-size: 22px;
     min-width: 35%;
     margin: 2%;
     padding: 2%;
