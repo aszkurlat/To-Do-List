@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('img/paper-list.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 5%;
+    font-family: monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+button,
+input {
+    min-width: 35%;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid rgb(167, 167, 167);
+    outline: none;
+}
+
+input {
+    background-color: #E5E2DB;
+}
+
+button {
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: rgb(39, 39, 39);
+    color: rgb(202, 202, 187);
+    cursor: pointer;
+    outline: none;
+}
+
+h1 {
+    margin: 25% 0 10%;
+    text-align: right;
+}
