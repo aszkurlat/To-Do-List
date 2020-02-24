@@ -30,6 +30,7 @@ input {
     min-width: 35%;
     margin: 2%;
     padding: 2%;
+    font-size: 18px;
     border: 1px solid rgb(167, 167, 167);
     outline: none;
 }
