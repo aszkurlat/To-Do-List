@@ -11,6 +11,7 @@ body {
     background-attachment: fixed;
     margin: 5%;
     font-family: monospace;
+    font-size: 18px;
 }
 
 .container {
@@ -26,7 +27,6 @@ form {
 
 button,
 input {
-    font-size: 22px;
     min-width: 35%;
     margin: 2%;
     padding: 2%;
