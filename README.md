@@ -9,4 +9,5 @@ Simply Javascript To-Do List
  
  ## Project screenshot:
 
-![To Do List](https://user-images.githubusercontent.com/25865551/78603594-ae99ed80-7858-11ea-9822-d9034d06e0dd.png)
+![To Do List](https://user-images.githubusercontent.com/25865551/100132014-1e5ef600-2e85-11eb-935e-f89e5827f858.png)
+
