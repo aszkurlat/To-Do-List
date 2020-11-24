@@ -19,7 +19,7 @@ const addTask = (e) => {
     if (taskTitle === "") return;
     let task = document.createElement('li');
     task.className = "task";
-    task.innerHTML = taskTitle + " <button>Usuń</button>"
+    task.innerHTML = taskTitle + " <button>Delete</button>"
     toDoList.push(task);
     renderList();
     ul.appendChild(task);
