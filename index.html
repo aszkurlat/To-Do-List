@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <div class="container">
-        <form action="">
-            <input type="text" placeholder="Type the task">
-            <button>Add task</button>
-            <input class="search " type="search" placeholder="Search">
-        </form>
-        <div class="tasks">
-            <h1>Number of tasks: <span>0</span></h1>
-            <ul>
-            </ul>
-        </div>
-    </div>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODOlist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>todo<span>list</span></h1>
+    </header>
+    <form>
+      <input type="text" placeholder="Add task" class="task-input" />
+      <button class="add-task-button">
+        <i class="fas fa-plus-square"></i>
+      </button>
+      <div class="select">
+        <select name="todo-task-select" class="filter-todo">
+          <option value="all">All</option>
+          <option value="completed">Completed</option>
+          <option value="uncompleted">Uncompleted</option>
+        </select>
+      </div>
+    </form>
+    <section class="todo-container">
+      <div class="todo-list"></div>
+    </section>
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
