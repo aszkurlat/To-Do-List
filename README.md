@@ -1,13 +1,15 @@
 # To-Do-List
 
-Simply Javascript To-Do List 
+Javascript TODO list 
 
- - add a task to list
- - delete task
- - search for a task in the task list
+ ✅ add task to list
+ ✍️ edit task name
+ 🗑️ remove task
+ 🔎 check your list of complited, uncomplited and all tasks
  
  
- ## Project screenshot:
+ ## Project screenshots:
 
-![To Do List](https://user-images.githubusercontent.com/25865551/100132014-1e5ef600-2e85-11eb-935e-f89e5827f858.png)
+![TODOlist (1)](https://user-images.githubusercontent.com/25865551/157444287-d609146d-5cf8-4317-9e3a-19f338d92bad.png)
+![TODOlist (2)](https://user-images.githubusercontent.com/25865551/157444284-8ca02546-9116-42c6-ad17-b3de6c7a4cff.png)
 
